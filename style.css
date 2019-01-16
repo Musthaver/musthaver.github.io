@@ -1,0 +1,49 @@
+p{
+  font-family: 'Roboto', sans-serif; 
+}
+
+a{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: lightslategrey; 
+  margin: 20px;
+}
+a:active {
+    color: pink;
+}
+a:hover {
+    text-decoration: underline;
+}
+body{
+  background-color: whitesmoke;
+}
+#container{
+  text-align: center;
+}
+#header{
+ font-family: 'Open Sans', sans-serif; 
+  font-size: 80px;
+  letter-spacing; 15px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+#subheader{
+  font-family: 'open sans', sans-serif;
+  color: lightslategrey;
+  font-size: 20px
+  text-align: center;
+}
+#my-picture{
+  border-radius: 50%;
+  margin: 20px;
+}
+#summary{
+  width: 80%;
+  margin:30px auto;
+}
+@media only screen and (max-width: 600px) {
+  #header{
+    font-size: 70px;
+    text-align: center;
+}
